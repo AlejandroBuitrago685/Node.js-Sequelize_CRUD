@@ -12,7 +12,7 @@ app.get("/coches", (req, res) => {
     })
 })
 
-app.post("/add", (req, res) => {
+app.post("/coches", (req, res) => {
     //console.log(req.body);
     Coche.create({
         modelo: req.body.modelo,
